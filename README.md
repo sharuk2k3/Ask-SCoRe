@@ -31,6 +31,28 @@ This app aims to resolve queries by anyone in the organisation and let members c
 - Topic Specific Forum Threads
 - Stay updated with Medium and Github Activities
 
+## Technologies-used
+
+- React Native
+- Firebase
+- Java Script
+- Java
+- Objective C
+## Screenshots
+<p>
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/OnBoardingScreen1.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/OnBoardingScreen2.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/OnBoardingScreen3.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/OnBoardingScreen4.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/SignUpScreen.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/LoginScreen.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/Profile.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/Home.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/Forum.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/Notifications1.jpeg" width="220">
+  <img src="https://github.com/sharuk2k3/Ask-SCoRe/blob/master/Screenshots/Notifications2.jpeg" width="220">
+</p>
+
 ## Setup and run
 **NOTE : XCODE / Android Studio is necessary in order to setup the project.**
 
