@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render HomeScreen Correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "marginBottom": 15,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source="test-file-stub"
+          style={
+            Object {
+              "aspectRatio": 1,
+              "marginHorizontal": 5,
+              "width": 97.5,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "flex": 1,
+              "fontSize": 30,
+              "marginLeft": 10,
+              "marginTop": 5,
+            }
+          }
+        >
+          Community
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#9cd683",
+              "borderRadius": 10,
+              "height": 53.36,
+              "justifyContent": "center",
+              "marginTop": 7,
+              "opacity": 1,
+              "right": 10,
+              "width": 105.00000000000001,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontSize": 16,
+                "fontWeight": "500",
+                "textAlign": "center",
+              }
+            }
+          >
+            ASK
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "borderBottomColor": "black",
+            "borderBottomWidth": 1,
+            "marginBottom": 3,
+            "marginHorizontal": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "black",
+            "borderBottomWidth": 1,
+            "marginBottom": 3,
+            "marginHorizontal": 10,
+          }
+        }
+      />
+    </View>
+    <RCTScrollView
+      ListFooterComponent={
+        <View
+          style={
+            Object {
+              "height": 170,
+            }
+          }
+        />
+      }
+      data={Array []}
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "height": 170,
+              }
+            }
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTSafeAreaView>
+`;

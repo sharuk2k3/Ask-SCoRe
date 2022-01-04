@@ -1,0 +1,435 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Question Screen correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "image": <Image
+            source="test-file-stub"
+            style={
+              Object {
+                "height": 200,
+                "width": 350,
+              }
+            }
+          />,
+          "subtitle": <Text
+            style={
+              Object {
+                "letterSpacing": 2,
+                "marginBottom": 50,
+              }
+            }
+          >
+            Support and Help Each Other
+          </Text>,
+          "title": <Text
+            style={
+              Object {
+                "fontSize": 45,
+                "fontWeight": "200",
+                "marginBottom": 20,
+              }
+            }
+          >
+            Community
+          </Text>,
+        },
+        Object {
+          "backgroundColor": "#fff",
+          "image": <Image
+            source="test-file-stub"
+            style={
+              Object {
+                "height": 276,
+                "width": 300,
+              }
+            }
+          />,
+          "subtitle": <Text
+            style={
+              Object {
+                "letterSpacing": 2,
+                "marginBottom": 50,
+              }
+            }
+          >
+            Collaborate and sync on Projects
+          </Text>,
+          "title": <Text
+            style={
+              Object {
+                "fontSize": 45,
+                "fontWeight": "200",
+                "marginBottom": 20,
+              }
+            }
+          >
+            Collaboration
+          </Text>,
+        },
+        Object {
+          "backgroundColor": "#fff",
+          "image": <Image
+            source="test-file-stub"
+            style={
+              Object {
+                "height": 180,
+                "width": 300,
+              }
+            }
+          />,
+          "subtitle": <Text
+            style={
+              Object {
+                "letterSpacing": 2,
+                "marginBottom": 50,
+              }
+            }
+          >
+            Communication is what makes team strong
+          </Text>,
+          "title": <Text
+            style={
+              Object {
+                "fontSize": 45,
+                "fontWeight": "200",
+                "marginBottom": 20,
+              }
+            }
+          >
+            Communicate
+          </Text>,
+        },
+        Object {
+          "backgroundColor": "#fff",
+          "image": <Image
+            source="test-file-stub"
+            style={
+              Object {
+                "height": 250,
+                "width": 300,
+              }
+            }
+          />,
+          "subtitle": <Text
+            style={
+              Object {
+                "letterSpacing": 2,
+                "marginBottom": 50,
+              }
+            }
+          >
+            Get your queries Resolved
+          </Text>,
+          "title": <Text
+            style={
+              Object {
+                "fontSize": 45,
+                "fontWeight": "200",
+                "marginBottom": 20,
+              }
+            }
+          >
+            Queries
+          </Text>,
+        },
+      ]
+    }
+    disableVirtualization={false}
+    extraData={null}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    initialNumToRender={1}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onViewableItemsChanged={[Function]}
+    pagingEnabled={true}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfig={
+      Object {
+        "itemVisiblePercentThreshold": 100,
+      }
+    }
+    viewabilityConfigCallbackPairs={
+      Array [
+        Object {
+          "onViewableItemsChanged": [Function],
+          "viewabilityConfig": Object {
+            "itemVisiblePercentThreshold": 100,
+          },
+        },
+      ]
+    }
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "paddingTop": 0,
+              },
+              null,
+              Object {
+                "height": 1334,
+                "width": 750,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flex": 0,
+                  "paddingBottom": 60,
+                  "width": "100%",
+                },
+                null,
+              ]
+            }
+          >
+            <Image
+              source="test-file-stub"
+              style={
+                Object {
+                  "height": 200,
+                  "width": 350,
+                }
+              }
+            />
+          </View>
+          <Text
+            style={
+              Object {
+                "fontSize": 45,
+                "fontWeight": "200",
+                "marginBottom": 20,
+              }
+            }
+          >
+            Community
+          </Text>
+          <Text
+            style={
+              Object {
+                "letterSpacing": 2,
+                "marginBottom": 50,
+              }
+            }
+          >
+            Support and Help Each Other
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Object {
+        "backgroundColor": "rgba(0, 0, 0, 0.1)",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "space-between",
+          "paddingHorizontal": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flexShrink": 1,
+            "width": 200,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#9cd683",
+              "borderRadius": 10,
+              "height": 30,
+              "justifyContent": "center",
+              "marginHorizontal": 10,
+              "opacity": 1,
+              "width": 70,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Skip
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 0,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#51AD28",
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#adadad",
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#adadad",
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#adadad",
+              "height": 6,
+              "marginHorizontal": 3,
+              "width": 6,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flexShrink": 1,
+            "width": 200,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#9cd683",
+              "borderRadius": 10,
+              "height": 30,
+              "justifyContent": "center",
+              "marginHorizontal": 10,
+              "opacity": 1,
+              "width": 70,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            Next
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;

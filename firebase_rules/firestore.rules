@@ -1,0 +1,127 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    match /{document=**}{
+   		allow read: if true;
+      allow write: if true;
+    }
+    
+    match /userInfo/{document=**} {
+   		allow read, write;
+    }
+
+// USERS
+    match /users/{usersId} {
+    	allow read: if true;
+      allow create: if isIdentical();
+      allow update, delete: if isMatching();
+    }
+    
+    match /users/{usersId}/email {
+    	allow read: if true;
+      allow create: if isIdentical();
+      allow update, delete: if false
+    }
+    match /users/{usersId}/fullName {
+    	allow read: if true;
+      allow create: if isIdentical();
+      allow update, delete: if false
+    }
+
+    match /users/{usersId}/adminRights {
+    	allow read: if true;
+      allow create: if isIdentical();
+      allow update, delete: if isMatching();
+    }
+    
+    match /users/{usersId}/country {
+    	allow read: if true;
+      allow create: if isIdentical();
+      allow update, delete: if isMatching();
+    }
+    
+    match /users/{usersId}/downloadURL {
+    	allow read: if true;
+      allow create: if isIdentical();
+      allow update, delete: if isMatching();
+    }
+    
+    match /users/{usersId}/interest {
+    	allow read: if true;
+      allow create: if isIdentical();
+      allow update, delete: if isMatching();
+    }
+    
+    match /users/{usersId}/occupation {
+    	allow read: if true;
+      allow create: if isIdentical();
+      allow update, delete: if isMatching();
+    }
+// USERS
+
+// QUERIES
+    match /queries/{id} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isIdentical();
+      allow update, delete: if isAuthenticated() && isMatching();
+    }
+    
+    match /queries/{queriesId}/answerPresent {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isIdentical();
+      allow update, delete: if isAuthenticated() && isMatching();
+    }
+    
+    match /queries/{queriesId}/postDateTime {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isIdentical();
+      allow update, delete: if isAuthenticated() && isMatching();
+    }
+    
+    match /queries/{queriesId}/queryImage {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isIdentical();
+      allow update, delete: if isAuthenticated() && isMatching();
+    }
+    
+    match /queries/{queriesId}/queryInput {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isIdentical();
+      allow update, delete: if isAuthenticated() && isMatching();
+    }
+    
+    match /queries/{queriesId}/postNumber {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isIdentical();
+      allow update, delete: if isAuthenticated() && isMatching();
+    }
+    
+    match /queries/{queriesId}/postTime {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isIdentical();
+      allow update, delete: if isAuthenticated() && isMatching();
+    }
+
+// QUERIES
+    
+    match /queries/{queriesId}/answers/{document=**} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && isIdentical();
+      allow update, delete: if isAuthenticated();
+    }
+
+     function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isMatching() {
+    	return request.auth.uid == resource.data.id;
+    }
+    
+    function isIdentical() {
+    	return request.auth.uid == request.resource.data.id;
+    }
+    
+  }
+}

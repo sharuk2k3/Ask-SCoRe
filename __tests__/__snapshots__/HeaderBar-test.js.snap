@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Question Screen correctly 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      style={
+        Object {
+          "height": 55,
+          "marginHorizontal": 5,
+          "width": 55,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "flex": 1,
+          "fontSize": 30,
+          "marginLeft": 10,
+          "marginTop": 5,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "black",
+        "borderBottomWidth": 1,
+        "marginBottom": 3,
+        "marginHorizontal": 10,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "borderBottomColor": "black",
+        "borderBottomWidth": 1,
+        "marginBottom": 3,
+        "marginHorizontal": 10,
+      }
+    }
+  />
+</View>
+`;
