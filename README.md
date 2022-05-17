@@ -114,6 +114,3 @@ This app aims to resolve queries by anyone in the organisation and let members c
 
   `react-native run-android`
   
-## Contact
-
-You can reach the maintainers and our community on [scorelab on gitter](https://gitter.im/scorelab/scorelab). If you are interested in contributing to the Ask-SCoRe, we have a channel too [#Go-Social](https://gitter.im/scorelab/go-social), where you can ask questions and interact with the community, join with us!
